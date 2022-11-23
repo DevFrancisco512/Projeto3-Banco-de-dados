@@ -8,7 +8,7 @@ use bancovendas;
 --
 -- Host: 127.0.0.1:3306
 -- Tempo de geração: 20-Nov-2022 às 02:15
--- Versão do servidor: 5.7.36 
+-- Versão do servidor: 5.7.36
 -- versão do PHP: 7.4.26
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `carros` (
   `cor` varchar(30) NOT NULL,
   `ano` int(11) NOT NULL,
   PRIMARY KEY (`id_Carro`)
-)  ENGINE=InnoDB DEFAULT charset=utf8; 
+)  ENGINE=InnoDB DEFAULT charset=utf8;
 
 --
 -- Extraindo dados da tabela `carros`
@@ -275,7 +275,7 @@ CREATE TABLE IF NOT EXISTS `cliente` (
   UNIQUE KEY `nome_Cliente` (`nome_Cliente`),
   UNIQUE KEY `nome_Cliente_2` (`nome_Cliente`),
   UNIQUE KEY `nome_Cliente_3` (`nome_Cliente`)
-) ENGINE=MyISAM AUTO_INCREMENT=32 DEFAULT CHARSET=latin1;
+) ENGINE=InooDB AUTO_INCREMENT=32 DEFAULT CHARSET=utf8;
 
 --
 -- Extraindo dados da tabela `cliente`
@@ -335,7 +335,7 @@ CREATE TABLE IF NOT EXISTS `venda` (
   PRIMARY KEY (`id_Venda`),
   KEY `cod_Cliente` (`id_Cliente`),
   KEY `cod_Carro` (`id_Carro`)
-) ENGINE=MyISAM AUTO_INCREMENT=458 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Extraindo dados da tabela `venda`
