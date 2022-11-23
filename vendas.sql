@@ -1,3 +1,7 @@
+drop database bancovendas;
+create database bancovendas;
+use bancovendas;
+
 -- phpMyAdmin SQL Dump
 -- version 5.1.1
 -- https://www.phpmyadmin.net/
@@ -35,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `carros` (
   `cor` varchar(30) NOT NULL,
   `ano` int(11) NOT NULL,
   PRIMARY KEY (`id_Carro`)
-) ENGINE=MyISAM AUTO_INCREMENT=215 DEFAULT CHARSET=latin1;
+)  ENGINE=InnoDB DEFAULT charset=utf8;
 
 --
 -- Extraindo dados da tabela `carros`
