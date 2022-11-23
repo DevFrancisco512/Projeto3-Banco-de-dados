@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `carros` (
   `cor` varchar(30) NOT NULL,
   `ano` int(11) NOT NULL,
   PRIMARY KEY (`id_Carro`)
-)  ENGINE=InnoDB DEFAULT charset=utf8;
+)  ENGINE=InnoDB DEFAULT charset=utf8; 
 
 --
 -- Extraindo dados da tabela `carros`
