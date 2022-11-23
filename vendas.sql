@@ -8,7 +8,7 @@ use bancovendas;
 --
 -- Host: 127.0.0.1:3306
 -- Tempo de geração: 20-Nov-2022 às 02:15
--- Versão do servidor: 5.7.36
+-- Versão do servidor: 5.7.36 
 -- versão do PHP: 7.4.26
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
